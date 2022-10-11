@@ -77,12 +77,11 @@ def polynomial(deg, f_name):
     print(file_polynomial.read())
     file_polynomial.close()
     
-
-# step_k = int(input('Введите натуральную степень многочлена:\n'))
-# if step_k > 0:
-#     polynomial(step_k, 'file_polynomial.txt')
-# else:
-#     print('Введена не натуральная степень!')
+step_k = int(input('Введите натуральную степень многочлена:\n'))
+if step_k > 0:
+    polynomial(step_k, 'file_polynomial.txt')
+else:
+    print('Введена не натуральная степень!')
 
 
 #5. Даны два файла, в каждом из которых находится запись многочлена.
